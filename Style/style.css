@@ -1,0 +1,86 @@
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --text-color: #ff686b;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: var(--text-color);
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+}
+
+.underline-green {
+    width: 70px;
+    height: 2px;
+    background-color: lawngreen;
+}
+
+.underline-blue {
+    width: 70px;
+    height: 2px;
+    background-color: mediumblue;
+}
+
+.underline-black {
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+
+legend {
+    background-color: var(--text-color);
+    color: white;
+}
+
+.card-body strike {
+    font-size: 1vw;
+    padding-left: 3%;
+    color: var(--light-gray);
+}
+
+.card-body h3 {
+    color: var(--primary-color);
+}
+
+.media img {
+    max-width: 140px;
+    height: 100px;
+}
+
+.media-body h6 {
+    color: var(--primary-color);
+}
+
+.media-body strike {
+    font-size: 0.8vw;
+    padding-left: 3%;
+    color: var(--light-gray);
+}
+
+footer ul {
+    text-decoration: none;
+    list-style-type: none;
+}
